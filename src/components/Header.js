@@ -112,7 +112,6 @@ function Header() {
                       authState?.user === null ? <p className='mb-0'>Login <br></br>  My Account</p> :
                         <p className='mb-0'>Welcome <br></br>{authState?.user?.firstname}</p>
                     }
-
                   </Link>
                 </div>
                 <div>

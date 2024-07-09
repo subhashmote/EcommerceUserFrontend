@@ -31,7 +31,7 @@ function Home() {
     dispatch(getAllProducts());
   }
 
-  const blogState = useSelector((state) => state.blog.blog);
+  const blogState = useSelector((state) => state?.blog?.blog);
   const productState = useSelector((state) => state?.product?.product);
   
 
